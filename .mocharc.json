@@ -1,0 +1,7 @@
+{
+  "spec": "src/**/Tests/**/*Test.js",
+  "watch-files": ["src/**"],
+  "watch-ignore": ["node_modules"],
+  "jobs": "1",
+  "reporter": "dot"
+}
