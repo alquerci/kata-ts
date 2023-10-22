@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.1.0",
   "description": "Kata acme",
-  "main": "index.js",
   "repository": "https://github.com/alquerci/kata-javascript",
   "author": "Alexandre Quercia <alquerci@email.com>",
   "license": "MIT",
