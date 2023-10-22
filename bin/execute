@@ -1,0 +1,12 @@
+#! /bin/sh -eu
+
+docker-compose build > /dev/null
+
+exitcode=0
+docker-compose run --rm -u `id -u`:`id -g` app "$@" || {
+    exitcode=$?
+}
+
+docker-compose down
+
+exit $exitcode

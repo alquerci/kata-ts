@@ -1,0 +1,5 @@
+#! /bin/sh -eu
+
+medir=`dirname "$@"`
+
+"$medir"/execute yarn "$@"
