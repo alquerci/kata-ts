@@ -6,11 +6,5 @@
   "repository": "https://github.com/alquerci/kata-javascript",
   "author": "Alexandre Quercia <alquerci@email.com>",
   "license": "MIT",
-  "private": false,
-  "scripts": {
-      "test": "mocha"
-  },
-  "devDependencies": {
-    "mocha": "^10.2.0"
-  }
+  "private": false
 }
