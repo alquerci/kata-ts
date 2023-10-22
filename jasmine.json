@@ -1,0 +1,20 @@
+{
+  "spec_dir": "src",
+  "spec_files": [
+    "**/Tests/**/*Test.js"
+  ],
+  "helpers": [],
+  "env": {
+    "//": "Whether to fail a test without assertion",
+    "failSpecWithNoExpectations": false,
+
+    "//": "Stop execution of a file after the first expectation failure in it",
+    "stopSpecOnExpectationFailure": false,
+
+    "//": "Stop execution of the suite after the first failure",
+    "stopOnSpecFailure": false,
+
+    "//": "Run specs in semi-random order",
+    "random": false
+  }
+}

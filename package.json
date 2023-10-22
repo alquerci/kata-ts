@@ -6,5 +6,11 @@
   "repository": "https://github.com/alquerci/kata-javascript",
   "author": "Alexandre Quercia <alquerci@email.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+      "test": "jasmine --config=jasmine.json"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  }
 }
