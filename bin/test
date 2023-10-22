@@ -2,6 +2,4 @@
 
 medir=`dirname "$0"`
 
-"$medir"/execute time node_modules/.bin/jest \
-    --logHeapUsage \
-    "$@"
+"$medir"/yarn test "$@"
