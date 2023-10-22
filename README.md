@@ -1,20 +1,34 @@
 Start new kata
 --------------
 
-```
+```sh
 bin/new package_name ClassName
 ```
 
 Tests
 -----
 
-```
+```sh
 bin/test
 ```
 
-Install package
----------------
+Install all dependencies
+------------------------
 
+```sh
+bin/install
 ```
-bin/yarn add ...
+
+Add package
+-----------
+
+```sh
+bin/package-add package_name
+```
+
+Remove package
+--------------
+
+```sh
+bin/package-remove package_name
 ```

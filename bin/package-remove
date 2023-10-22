@@ -1,0 +1,5 @@
+#! /bin/sh -eu
+
+medir=`dirname "$0"`
+
+"$medir"/yarn remove "$@"

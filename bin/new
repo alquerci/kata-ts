@@ -38,6 +38,24 @@ SED=sed
 pkgname=$1
 classname=$2
 
+main ()
+{
+    createNewBranch
+
+    configurePackageName
+    configureClassName
+
+    removeSkeletonArtefact
+    commit
+    install
+
+    echo
+    echo "Open ${testsdir}/${classname}.${codefileext}"
+    echo
+    echo "And start coding"
+    echo
+}
+
 createNewBranch ()
 {
     checkWorkingTree
@@ -54,8 +72,6 @@ configurePackageName ()
 
     sed -i "s/${defaultclassname}/${classname}/g" \
         "${pkgdir}/${pkgmanagerfile}"
-
-    bin/package update
 }
 
 configureClassName ()
@@ -84,6 +100,11 @@ commit ()
     git commit -pm"Add ${pkgname}"
 }
 
+install ()
+{
+    bin/install
+}
+
 checkWorkingTree()
 {
     ${GIT} update-index --refresh > /dev/null || :
@@ -102,16 +123,4 @@ checkWorkingTree()
     }
 }
 
-createNewBranch
-
-configurePackageName
-configureClassName
-
-removeSkeletonArtefact
-commit
-
-echo
-echo "Open ${testsdir}/${classname}.${codefileext}"
-echo
-echo "And start coding"
-echo
+main
