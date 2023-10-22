@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-      "test": "jasmine --config=jasmine.json"
+    "test": "jasmine --config=jasmine.json"
   },
   "devDependencies": {
     "jasmine": "^5.1.0"

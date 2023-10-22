@@ -12,6 +12,17 @@ Tests
 bin/test
 ```
 
+
+Tests Coverage
+--------------
+
+```sh
+bin/test-coverage
+```
+
+Code Coverage report [var/tests/coverage/index.html](var/tests/coverage/index.html)
+
+
 Install all dependencies
 ------------------------
 
@@ -19,12 +30,14 @@ Install all dependencies
 bin/install
 ```
 
+
 Add package
 -----------
 
 ```sh
 bin/package-add package_name
 ```
+
 
 Remove package
 --------------

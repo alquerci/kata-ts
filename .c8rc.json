@@ -1,0 +1,11 @@
+{
+    "all": true,
+    "reporter": [
+        "html",
+        "text"
+    ],
+    "src": "src",
+    "exclude": "**/Tests",
+    "report-dir": "var/tests/coverage",
+    "temp-directory": "var/tmp/c8"
+}
