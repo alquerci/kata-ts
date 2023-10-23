@@ -1,4 +1,5 @@
 {
+  "//": "https://classic.yarnpkg.com/lang/en/docs/package-json",
   "name": "acme",
   "type": "module",
   "version": "0.1.0",

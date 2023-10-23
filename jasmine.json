@@ -1,4 +1,5 @@
 {
+  "//": "https://jasmine.github.io/",
   "spec_dir": "src",
   "spec_files": [
     "**/Tests/**/*Test.js"

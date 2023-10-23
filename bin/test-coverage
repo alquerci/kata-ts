@@ -2,6 +2,7 @@
 
 medir=`dirname "$0"`
 
-"$medir"/execute time cover-js-script \
+"$medir"/execute time \
+    cover-js-script --config=coverage.json \
     node_modules/.bin/jasmine --config=jasmine.json \
     "$@"

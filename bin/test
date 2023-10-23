@@ -2,6 +2,6 @@
 
 medir=`dirname "$0"`
 
-"$medir"/execute time node_modules/.bin/jasmine \
-    --config=jasmine.json \
+"$medir"/execute time \
+    node_modules/.bin/jasmine  --config=jasmine.json \
     "$@"
