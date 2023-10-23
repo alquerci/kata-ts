@@ -1,5 +1,11 @@
 FROM node:18.18.2-alpine3.18
 
+ENV YARN_RC_FILENAME yarnrc.yml
+
+RUN set -eux; \
+    corepack enable; \
+    :;
+
 RUN set -eux; \
     prefix=/usr/local; \
     coveragedir=/tools/coverage; \

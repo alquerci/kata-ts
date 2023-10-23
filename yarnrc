@@ -1,6 +1,0 @@
-# https://classic.yarnpkg.com/en/docs/yarnrc
-
-cache-folder "/app/var/cache/yarn"
-global-folder "/app/var/config/yarn/global"
-temp-folder "/app/var/tmp/yarn"
-disable-self-update-check true

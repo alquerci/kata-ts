@@ -3,5 +3,5 @@
 medir=`dirname "$0"`
 
 "$medir"/yarn \
-    install --frozen-lockfile \
+    install --immutable \
     "$@"

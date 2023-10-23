@@ -2,7 +2,4 @@
 
 medir=`dirname "$0"`
 
-"$medir"/execute yarn \
-    --use-yarnrc yarnrc \
-    --link-folder /app/var/config/yarn/link \
-    "$@"
+"$medir"/execute yarn "$@"

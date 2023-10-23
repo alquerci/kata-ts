@@ -1,17 +1,18 @@
 {
-  "//": "https://classic.yarnpkg.com/lang/en/docs/package-json",
+  "//": "https://yarnpkg.com/configuration/manifest",
   "name": "acme",
-  "type": "module",
   "version": "0.1.0",
   "description": "Kata acme",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
   "repository": "https://github.com/alquerci/kata-javascript",
   "author": "Alexandre Quercia <alquerci@email.com>",
-  "license": "MIT",
-  "private": false,
   "scripts": {
     "test": "jasmine --config=jasmine.json"
   },
   "devDependencies": {
     "jasmine": "^5.1.0"
-  }
+  },
+  "packageManager": "yarn@4.0.0"
 }
