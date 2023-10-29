@@ -50,7 +50,7 @@ main ()
     install
 
     echo
-    echo "Open ${testsdir}/${classname}.${codefileext}"
+    echo "Open ${testsdir}/${classname}Test.${codefileext}"
     echo
     echo "And start coding"
     echo
