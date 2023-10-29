@@ -1,0 +1,7 @@
+#! /bin/sh -eu
+
+medir=`dirname "$0"`
+
+"$medir"/execute time \
+    node_modules/.bin/stryker run \
+    "$@"

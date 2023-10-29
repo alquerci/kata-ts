@@ -12,6 +12,8 @@
     "test": "jasmine --config=jasmine.json"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^7.3.0",
+    "@stryker-mutator/jasmine-runner": "^7.3.0",
     "jasmine": "^5.1.0"
   }
 }
