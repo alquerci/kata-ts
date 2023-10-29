@@ -31,7 +31,7 @@ defaultpkgname=acme
 defaultclassname=Acme
 codefileext=js
 pkgmanagerfile=package.json
-pkgmanagerlockfile=yarn.lock
+pkgmanagerlockfile=package-lock.json
 GIT=git
 SED=sed
 
@@ -72,6 +72,12 @@ configurePackageName ()
 
     sed -i "s/${defaultclassname}/${classname}/g" \
         "${pkgdir}/${pkgmanagerfile}"
+
+    sed -i "s/${defaultpkgname}/${pkgname}/g" \
+        "${pkgdir}/${pkgmanagerlockfile}"
+
+    sed -i "s/${defaultclassname}/${classname}/g" \
+        "${pkgdir}/${pkgmanagerlockfile}"
 }
 
 configureClassName ()

@@ -2,4 +2,4 @@
 
 medir=`dirname "$0"`
 
-"$medir"/yarn remove "$@"
+"$medir"/npm uninstall "$@"

@@ -2,6 +2,4 @@
 
 medir=`dirname "$0"`
 
-"$medir"/yarn \
-    install --immutable \
-    "$@"
+"$medir"/npm ci "$@"
