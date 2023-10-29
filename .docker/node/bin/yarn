@@ -1,0 +1,14 @@
+#! /bin/sh -eu
+
+cat >&2 <<EOF
+Yarn is disabled, use npm instead.
+
+Yarn does not lock package versions.
+
+We expect that \`yarn install\` does not change the lock file.
+But it does.
+
+@see https://github.com/yarnpkg/yarn/issues/4379
+EOF
+
+exit 2

@@ -1,5 +1,5 @@
 {
-  "//": "https://yarnpkg.com/configuration/manifest",
+  "//": "https://docs.npmjs.com/cli/v9/configuring-npm/package-json",
   "name": "acme",
   "version": "0.1.0",
   "description": "Kata acme",
@@ -13,6 +13,5 @@
   },
   "devDependencies": {
     "jasmine": "^5.1.0"
-  },
-  "packageManager": "yarn@4.0.0"
+  }
 }
