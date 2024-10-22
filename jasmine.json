@@ -2,7 +2,7 @@
   "//": "https://jasmine.github.io/",
   "spec_dir": "src",
   "spec_files": [
-    "**/Tests/**/*Test.js"
+    "var/cache/build/**/Tests/**/*Test.js"
   ],
   "helpers": [],
   "env": {

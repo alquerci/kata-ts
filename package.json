@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "license": "MIT",
-  "repository": "https://github.com/alquerci/kata-javascript",
+  "repository": "https://github.com/alquerci/kata-typescript",
   "author": "Alexandre Quercia <alquerci@email.com>",
   "scripts": {
     "test": "jasmine --config=jasmine.json"

@@ -2,8 +2,8 @@
   "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
   "_comment": "https://stryker-mutator.io/docs/stryker-js/configuration/",
   "mutate": [
-    "src/**/*.js",
-    "!src/**/Tests/**/*Test.js"
+    "var/cache/build/**/*.js",
+    "!var/cache/build/**/Tests/**/*Test.js"
   ],
   "disableBail": true,
   "testRunner": "jasmine",

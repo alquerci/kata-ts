@@ -1,2 +1,0 @@
-it('nothing', async () => {
-})

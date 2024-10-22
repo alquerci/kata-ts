@@ -23,7 +23,7 @@ testsdir="${pkgdir}/src/Tests"
 
 defaultpkgname=acme
 defaultclassname=Acme
-codefileext=js
+codefileext=ts
 pkgmanagerfile=package.json
 pkgmanagerlockfile=package-lock.json
 GIT=git
