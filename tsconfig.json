@@ -9,6 +9,7 @@
       "module": "nodenext",
       "esModuleInterop": false,
       "strict": true,
+      "noImplicitAny": false,
       "skipLibCheck": true
   }
 }
