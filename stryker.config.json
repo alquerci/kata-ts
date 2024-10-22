@@ -5,6 +5,8 @@
     "var/tests/build/src/**/*.js",
     "!var/tests/build/src/**/Tests/**/*Test.js"
   ],
+  "ignorers": ["esmodule"],
+  "plugins": ["@stryker-mutator/*", "./stryker-esmodule-ignorer.mjs"],
   "disableBail": true,
   "testRunner": "jasmine",
   "jasmineConfigFile": "jasmine.json",

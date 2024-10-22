@@ -3,5 +3,5 @@
 medir=`dirname "$0"`
 
 "$medir"/execute time \
-    node_modules/.bin/stryker run \
+    bin/inside_docker/test-mutation \
     "$@"

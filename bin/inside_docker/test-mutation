@@ -6,4 +6,4 @@ medir=`dirname "$0"`
 
 set -x
 
-node_modules/.bin/jasmine --config=jasmine.json "$@"
+node_modules/.bin/stryker run "$@"
