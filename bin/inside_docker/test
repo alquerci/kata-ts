@@ -1,0 +1,11 @@
+#! /bin/sh -eu
+
+medir=`dirname "$0"`
+
+rm -r "${medir}/../../var/tests/build"
+
+set -x
+
+node_modules/.bin/tsc
+
+node_modules/.bin/jasmine --config=jasmine.json "$@"

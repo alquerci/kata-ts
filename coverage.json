@@ -5,7 +5,7 @@
         "html",
         "text"
     ],
-    "src": "var/cache/build",
+    "src": "var/tests/build/src",
     "exclude": "**/Tests",
     "report-dir": "var/tests/coverage",
     "temp-directory": "var/tmp/coverage"
